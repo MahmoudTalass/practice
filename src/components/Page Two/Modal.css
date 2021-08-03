@@ -1,0 +1,43 @@
+.modal-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  border-bottom: black 1px solid;
+  margin-top: 1rem;
+}
+
+.modal-header {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.modal-body {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.modal-confirm-cancel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.btn1-container,
+.btn2-container {
+  margin: auto;
+}
+
+.btn1,
+.btn2 {
+  width: 4rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition-timing-function: ease-out;
+  transition-duration: 200ms;
+}
+
+.btn2:hover {
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}

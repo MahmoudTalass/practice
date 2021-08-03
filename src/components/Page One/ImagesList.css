@@ -1,0 +1,22 @@
+.image-list-container {
+    margin: 1.5rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+
+
+.direct-image {
+    border: cadetblue 4px solid;
+    margin: auto;
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+}
+
+.direct-image:hover {
+    border: rgb(78, 194, 223) 4px solid;
+    margin: 0 auto;
+    width: 455px;
+    height: 370px;
+}

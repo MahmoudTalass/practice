@@ -1,0 +1,13 @@
+.listDiv{
+    margin-top: 1rem;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.listDiv ul {
+    margin: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    list-style: none;
+    line-height: 2rem;
+}

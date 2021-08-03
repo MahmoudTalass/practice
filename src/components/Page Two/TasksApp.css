@@ -1,0 +1,16 @@
+.tasks-app-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.form-section,
+.form-header {
+  margin: auto;
+}
+
+.form-header {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
